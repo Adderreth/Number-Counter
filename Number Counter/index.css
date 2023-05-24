@@ -1,0 +1,114 @@
+body {
+    background: url(img/back1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: nexa-bold;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+#content{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.295);
+    max-width: 50vw; height: 90vh;
+    display: block;
+    margin: 5vh auto;
+}
+
+#date{
+    display: flex;
+}
+
+#header{
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#main-content{
+    padding: 20px;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#save{
+    background-color:rgb(4, 118, 194);
+    align-self: flex-end;
+}
+
+button{
+    border: none;
+
+    border-radius: 7px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#count-el{
+    font-size: 50px;
+}
+
+#buttons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    background-color: rgb(255, 217, 0)
+}
+
+#remove ,
+#remove2 {
+    background: rgb(206, 63, 63);
+}
+
+#add,
+#add2{
+    background-color: rgb(39, 185, 112)  ;
+}
+
+#saved-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#row{
+    background-color: rgba(1, 44, 20, 0.719);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    padding: 0px 20px;
+}
+
+#count-el2,
+#count-el1{
+    font-size: 20px;
+}
+
+#row h1{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
